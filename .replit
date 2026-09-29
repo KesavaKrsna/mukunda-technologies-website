@@ -1,0 +1,2 @@
+modules = ["nodejs-24", "python-base-3.13"]
+run = "python3 server.py"
