@@ -1,0 +1,9 @@
+{
+  "name": "Mukunda Technologies",
+  "short_name": "Mukunda",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061e32",
+  "theme_color": "#061e32",
+  "description": "Technology that moves businesses forward."
+}
