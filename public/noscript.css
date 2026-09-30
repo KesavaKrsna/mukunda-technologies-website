@@ -1,0 +1,6 @@
+/* Loaded only when JavaScript is off: show the navigation inline, no hamburger. */
+.menu-toggle { display: none !important; }
+.site-header { position: relative; background: #061e32; }
+.nav-wrap { height: auto; padding: 16px 0; flex-wrap: wrap; }
+.primary-nav { position: static !important; inset: auto !important; visibility: visible !important; opacity: 1 !important; transform: none !important; flex-direction: row !important; flex-wrap: wrap; gap: 6px 18px !important; padding: 0 !important; background: transparent !important; font-size: 14px !important; }
+.hero, .inner-hero { padding-top: 64px; }
