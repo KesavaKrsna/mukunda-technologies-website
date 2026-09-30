@@ -46,6 +46,11 @@
 </header>
 <main id="main-content">
 <section class="hero section-dark">
+  <picture class="hero-media" aria-hidden="true">
+    <source media="(max-width: 700px)" type="image/webp" srcset="/assets/hero/hero-mobile-750.webp 750w, /assets/hero/hero-mobile-1080.webp 1080w" sizes="100vw" />
+    <source type="image/webp" srcset="/assets/hero/hero-desktop-768.webp 768w, /assets/hero/hero-desktop-1280.webp 1280w, /assets/hero/hero-desktop-1920.webp 1920w" sizes="100vw" />
+    <img src="/assets/hero/hero-desktop-1280.jpg" width="1920" height="1080" alt="" fetchpriority="high" decoding="async" />
+  </picture>
   <div class="hero-grid" aria-hidden="true"></div><div class="hero-glow" aria-hidden="true"></div>
   <div class="container hero-inner">
     <div class="hero-copy">
@@ -75,9 +80,9 @@
     </div>
   </div>
   <div class="container pillars-grid">
-    <article class="pillar-card pillar-orange"><span class="pillar-index">01 / 03</span><h3>Build</h3><p>Custom software, digital platforms and websites designed around your users and your goals.</p></article>
-    <article class="pillar-card pillar-navy"><span class="pillar-index">02 / 03</span><h3>Automate</h3><p>AI solutions, workflow automation and business intelligence that give teams time back.</p></article>
-    <article class="pillar-card pillar-cream"><span class="pillar-index">03 / 03</span><h3>Empower</h3><p>Practical tools that help SMEs and organisations grow with confidence.</p></article>
+    <article class="pillar-card pillar-orange pillar-card--img"><figure class="pillar-media"><picture><source type="image/webp" srcset="/assets/pillars/build-400.webp 400w, /assets/pillars/build-800.webp 800w, /assets/pillars/build-1600.webp 1600w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) calc((100vw - 48px) / 3), 377px" /><img src="/assets/pillars/build-800.jpg" width="800" height="500" alt="Illustration of software dashboards on a desk in front of a night-time neighbourhood, with a network of connected points above." loading="lazy" decoding="async" /></picture></figure><span class="pillar-index">01 / 03</span><div class="pillar-body"><h3>Build</h3><p>Custom software, digital platforms and websites designed around your users and your goals.</p></div></article>
+    <article class="pillar-card pillar-navy pillar-card--img"><figure class="pillar-media"><picture><source type="image/webp" srcset="/assets/pillars/automate-400.webp 400w, /assets/pillars/automate-800.webp 800w, /assets/pillars/automate-1600.webp 1600w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) calc((100vw - 48px) / 3), 377px" /><img src="/assets/pillars/automate-800.jpg" width="800" height="500" alt="Illustration of a three-step workflow loop, from input to process to done, above a neighbourhood at night." loading="lazy" decoding="async" /></picture></figure><span class="pillar-index">02 / 03</span><div class="pillar-body"><h3>Automate</h3><p>AI solutions, workflow automation and business intelligence that give teams time back.</p></div></article>
+    <article class="pillar-card pillar-cream pillar-card--img"><figure class="pillar-media"><picture><source type="image/webp" srcset="/assets/pillars/empower-400.webp 400w, /assets/pillars/empower-800.webp 800w, /assets/pillars/empower-1600.webp 1600w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) calc((100vw - 48px) / 3), 377px" /><img src="/assets/pillars/empower-800.jpg" width="800" height="500" alt="Illustration of a small shop and market stalls at night, with a signal and a network of connected points above." loading="lazy" decoding="async" /></picture></figure><span class="pillar-index">03 / 03</span><div class="pillar-body"><h3>Empower</h3><p>Practical tools that help SMEs and organisations grow with confidence.</p></div></article>
   </div>
 </section>
 
