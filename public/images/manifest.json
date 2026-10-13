@@ -1,0 +1,90 @@
+{
+  "version": "V01.0-04",
+  "updated": "2026-10-13",
+  "status": "Draft artwork awaiting Kgosi's OK. People in the pictures are fictional and are not presented as customers.",
+  "dropIn": "Replace a file in this folder with the same filename, or add a new versioned filename and update this list plus the matching src/srcset in the HTML. Logos are not baked into the WebP files; the pages overlay them in HTML.",
+  "slots": [
+    {
+      "id": "home-hero",
+      "page": "public/index.html",
+      "placement": "Home hero, right of the headline on wide screens and above it on small screens. A navy overlay sits on the photograph.",
+      "alt": "Johannesburg skyline at dawn with glowing network lines rising above the city",
+      "aspectRatio": "16:9",
+      "lazy": false,
+      "logoOverlay": {
+        "src": "/assets/logo-horizontal.png",
+        "note": "Mukunda wordmark, repeated from the header, so this copy is decorative (empty alt)."
+      },
+      "files": [
+        { "src": "/images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_800w.webp", "width": 800, "height": 450 },
+        { "src": "/images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_1600w.webp", "width": 1600, "height": 900 }
+      ]
+    },
+    {
+      "id": "product-caterflow",
+      "page": "public/index.html and public/products.html",
+      "placement": "Caterflow product card",
+      "alt": "A phone and tablet showing an online catering menu among South African dishes",
+      "aspectRatio": "16:9",
+      "lazy": "Below the fold on the home page. The products page loads the first card immediately because it can sit in the first screen.",
+      "logoOverlay": { "src": "/assets/caterflow-mark.png", "alt": "Caterflow logo" },
+      "files": [
+        { "src": "/images/MUKUNDA-WEBSITE-IMG-02-CATERFLOW-V01.0-04_800w.webp", "width": 800, "height": 450 }
+      ]
+    },
+    {
+      "id": "product-bizops",
+      "page": "public/index.html and public/products.html",
+      "placement": "BizOps product card",
+      "alt": "A laptop showing an accounting dashboard beside invoices and a calculator",
+      "aspectRatio": "16:9",
+      "lazy": true,
+      "logoOverlay": null,
+      "note": "No BizOps logo is in the repo, so none is overlaid. The designer file includes the generic word INVOICE on a sheet of paper; it is left uncropped for review.",
+      "files": [
+        { "src": "/images/MUKUNDA-WEBSITE-IMG-03-BIZOPS-V01.0-04_800w.webp", "width": 800, "height": 450 }
+      ]
+    },
+    {
+      "id": "product-oneprofile",
+      "page": "public/index.html and public/products.html",
+      "placement": "OneProfile product card",
+      "alt": "A graduate holds a phone showing a verified digital profile",
+      "aspectRatio": "16:9",
+      "lazy": true,
+      "logoOverlay": null,
+      "note": "No OneProfile logo is in the repo, so none is overlaid.",
+      "files": [
+        { "src": "/images/MUKUNDA-WEBSITE-IMG-04-ONEPROFILE-V01.0-04_800w.webp", "width": 800, "height": 450 }
+      ]
+    },
+    {
+      "id": "product-my-roots",
+      "page": "public/index.html and public/products.html",
+      "placement": "My Roots product card",
+      "alt": "Old family photos, a handwritten family tree and a tablet family-tree view",
+      "aspectRatio": "16:9",
+      "lazy": true,
+      "logoOverlay": null,
+      "note": "No My Roots logo is in the repo, so none is overlaid.",
+      "files": [
+        { "src": "/images/MUKUNDA-WEBSITE-IMG-05-MYROOTS-V01.0-04_800w.webp", "width": 800, "height": 450 }
+      ]
+    },
+    {
+      "id": "about",
+      "page": "public/about.html",
+      "placement": "About page, beside “Rooted in South Africa.”",
+      "alt": "Two people work at laptops in a small studio at sunrise",
+      "aspectRatio": "16:9",
+      "lazy": true,
+      "logoOverlay": {
+        "src": "/assets/logo-horizontal.png",
+        "note": "Mukunda wordmark, repeated from the header, so this copy is decorative (empty alt)."
+      },
+      "files": [
+        { "src": "/images/MUKUNDA-WEBSITE-IMG-06-ABOUT-V01.0-04_800w.webp", "width": 800, "height": 450 }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,7 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />
 <link rel="preload" href="/assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" as="image" type="image/webp" href="/images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_800w.webp" imagesrcset="/images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_800w.webp 800w, /images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_1600w.webp 1600w" imagesizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) min(100vw - 48px, 760px), 640px" fetchpriority="high" />
 <link rel="stylesheet" href="/styles.css" />
 <noscript><link rel="stylesheet" href="/noscript.css" /></noscript>
 <meta property="og:type" content="website" />
@@ -46,11 +47,6 @@
 </header>
 <main id="main-content">
 <section class="hero section-dark">
-  <picture class="hero-media" aria-hidden="true">
-    <source media="(max-width: 700px)" type="image/webp" srcset="/assets/hero/hero-mobile-750.webp 750w, /assets/hero/hero-mobile-1080.webp 1080w" sizes="100vw" />
-    <source type="image/webp" srcset="/assets/hero/hero-desktop-768.webp 768w, /assets/hero/hero-desktop-1280.webp 1280w, /assets/hero/hero-desktop-1920.webp 1920w" sizes="100vw" />
-    <img src="/assets/hero/hero-desktop-1280.jpg" width="1920" height="1080" alt="" fetchpriority="high" decoding="async" />
-  </picture>
   <div class="hero-grid" aria-hidden="true"></div><div class="hero-glow" aria-hidden="true"></div>
   <div class="container hero-inner">
     <div class="hero-copy">
@@ -62,6 +58,10 @@
         <a class="button button-ghost" href="/contact">Contact us</a>
       </div>
     </div>
+    <figure class="visual-frame hero-media">
+      <img class="slot-photo" src="/images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_800w.webp" srcset="/images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_800w.webp 800w, /images/MUKUNDA-WEBSITE-IMG-01-HOME-HERO-V01.0-04_1600w.webp 1600w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) min(100vw - 48px, 760px), 640px" width="800" height="450" alt="Johannesburg skyline at dawn with glowing network lines rising above the city" fetchpriority="high" decoding="async" />
+      <span class="logo-chip logo-chip-navy"><img class="logo-chip-mark" src="/assets/logo-horizontal.png" srcset="/assets/logo-horizontal.png 1x, /assets/logo-horizontal@2x.png 2x, /assets/logo-horizontal@3x.png 3x" width="138" height="36" alt="" decoding="async" /></span>
+    </figure>
     <div class="hero-panel">
       <h2>Our products</h2>
       <p>Where each one stands today.</p>
@@ -94,28 +94,41 @@
     </div>
     <div class="product-grid">
 <article class="product-card" id="caterflow">
-  <div class="product-top"><img class="product-mark" src="/assets/caterflow-mark.png" width="60" height="96" alt="Caterflow logo" loading="lazy" /><span class="status status-live">Live</span></div>
+  <figure class="visual-frame product-visual">
+    <img class="slot-photo" src="/images/MUKUNDA-WEBSITE-IMG-02-CATERFLOW-V01.0-04_800w.webp" srcset="/images/MUKUNDA-WEBSITE-IMG-02-CATERFLOW-V01.0-04_800w.webp 800w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) calc((min(100vw - 48px, 760px) - 16px) / 2), 572px" width="800" height="450" alt="A phone and tablet showing an online catering menu among South African dishes" loading="lazy" decoding="async" />
+    <span class="logo-chip logo-chip-paper"><img class="product-mark" src="/assets/caterflow-mark.png" width="60" height="96" alt="Caterflow logo" loading="lazy" decoding="async" /></span>
+  </figure>
+  <div class="product-top"><span class="status status-live">Live</span></div>
   <h3 class="product-name">Caterflow</h3>
   <p>A white-label catering platform. Caterers get their own branded online storefront for menus and home-meal orders, plus quotes, customer management and a QR menu, all in one place.</p>
   <p class="product-avail"><strong>Available now</strong> for South African caterers and restaurants. Plans and pricing are on the Caterflow website.</p>
   <a class="text-link product-link" href="https://caterflow.co.za" rel="noopener">Visit caterflow.co.za <span class="arr" aria-hidden="true"></span></a>
 </article>
 <article class="product-card" id="bizops">
-  <div class="product-top"><span></span><span class="status">In development</span></div>
+  <figure class="visual-frame product-visual">
+    <img class="slot-photo" src="/images/MUKUNDA-WEBSITE-IMG-03-BIZOPS-V01.0-04_800w.webp" srcset="/images/MUKUNDA-WEBSITE-IMG-03-BIZOPS-V01.0-04_800w.webp 800w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) calc((min(100vw - 48px, 760px) - 16px) / 2), 572px" width="800" height="450" alt="A laptop showing an accounting dashboard beside invoices and a calculator" loading="lazy" decoding="async" />
+  </figure>
+  <div class="product-top"><span class="status">In development</span></div>
   <h3 class="product-name">BizOps</h3>
   <p>Business management and accounting software for financial operations, inventory, sales and workflows.</p>
   <p class="product-avail"><strong>Not yet publicly available.</strong> Get in touch if you would like to hear more.</p>
   <a class="text-link product-link" href="/contact">Ask about BizOps <span class="arr" aria-hidden="true"></span></a>
 </article>
 <article class="product-card" id="oneprofile">
-  <div class="product-top"><span></span><span class="status">Partner-first pilot</span></div>
+  <figure class="visual-frame product-visual">
+    <img class="slot-photo" src="/images/MUKUNDA-WEBSITE-IMG-04-ONEPROFILE-V01.0-04_800w.webp" srcset="/images/MUKUNDA-WEBSITE-IMG-04-ONEPROFILE-V01.0-04_800w.webp 800w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) calc((min(100vw - 48px, 760px) - 16px) / 2), 572px" width="800" height="450" alt="A graduate holds a phone showing a verified digital profile" loading="lazy" decoding="async" />
+  </figure>
+  <div class="product-top"><span class="status">Partner-first pilot</span></div>
   <h3 class="product-name">OneProfile</h3>
   <p>A consent-led onboarding service. People build a profile and document collection once, then share it with an institution only with their explicit, scoped consent, so that institutions can make digital onboarding easier to complete.</p>
   <p class="product-avail"><strong>Not publicly available.</strong> We are working with partner institutions first. Institutions that would like to discuss a pilot are welcome to get in touch.</p>
   <a class="text-link product-link" href="/contact">Talk to us about a pilot <span class="arr" aria-hidden="true"></span></a>
 </article>
 <article class="product-card" id="my-roots">
-  <div class="product-top"><span></span><span class="status">In development · not yet launched</span></div>
+  <figure class="visual-frame product-visual">
+    <img class="slot-photo" src="/images/MUKUNDA-WEBSITE-IMG-05-MYROOTS-V01.0-04_800w.webp" srcset="/images/MUKUNDA-WEBSITE-IMG-05-MYROOTS-V01.0-04_800w.webp 800w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1024px) calc((min(100vw - 48px, 760px) - 16px) / 2), 572px" width="800" height="450" alt="Old family photos, a handwritten family tree and a tablet family-tree view" loading="lazy" decoding="async" />
+  </figure>
+  <div class="product-top"><span class="status">In development · not yet launched</span></div>
   <h3 class="product-name">My Roots</h3>
   <p>A digital space for families to build family trees and preserve ancestry, traditions and shared histories.</p>
   <p class="product-avail"><strong>Not yet launched.</strong> A pilot is planned. Get in touch if you would like to hear when it opens.</p>
