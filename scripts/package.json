@@ -1,0 +1,10 @@
+{
+  "name": "mukunda-site-checks",
+  "private": true,
+  "type": "module",
+  "description": "Local Puppeteer and axe checks for the static site. Not published.",
+  "dependencies": {
+    "axe-core": "^4.14.0",
+    "puppeteer-core": "^25.13.0"
+  }
+}
